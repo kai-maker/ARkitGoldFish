@@ -302,6 +302,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
 
+		//System.Void UnityEngine.Animator::set_speed(System.Single)
+		void Register_UnityEngine_Animator_set_speed();
+		Register_UnityEngine_Animator_set_speed();
+
 	//End Registrations for type : UnityEngine.Animator
 
 	//Start Registrations for type : UnityEngine.Application
@@ -811,6 +815,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_CapsuleCollider_set_radius();
 
 	//End Registrations for type : UnityEngine.CapsuleCollider
+
+	//Start Registrations for type : UnityEngine.CharacterController
+
+		//System.Void UnityEngine.CharacterController::INTERNAL_get_velocity(UnityEngine.Vector3&)
+		void Register_UnityEngine_CharacterController_INTERNAL_get_velocity();
+		Register_UnityEngine_CharacterController_INTERNAL_get_velocity();
+
+		//UnityEngine.CollisionFlags UnityEngine.CharacterController::INTERNAL_CALL_Move(UnityEngine.CharacterController,UnityEngine.Vector3&)
+		void Register_UnityEngine_CharacterController_INTERNAL_CALL_Move();
+		Register_UnityEngine_CharacterController_INTERNAL_CALL_Move();
+
+	//End Registrations for type : UnityEngine.CharacterController
 
 	//Start Registrations for type : UnityEngine.Collider
 
@@ -2290,6 +2306,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_WakeUp();
 		Register_UnityEngine_Rigidbody_INTERNAL_CALL_WakeUp();
 
+		//System.Void UnityEngine.Rigidbody::INTERNAL_set_angularVelocity(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
+		Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
+
+		//System.Void UnityEngine.Rigidbody::INTERNAL_set_velocity(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_INTERNAL_set_velocity();
+		Register_UnityEngine_Rigidbody_INTERNAL_set_velocity();
+
 	//End Registrations for type : UnityEngine.Rigidbody
 
 	//Start Registrations for type : UnityEngine.Screen
@@ -2698,6 +2722,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
 
+		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
+		Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
+
 		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformPoint(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_TransformPoint();
@@ -2757,6 +2785,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::set_parentInternal(UnityEngine.Transform)
 		void Register_UnityEngine_Transform_set_parentInternal();
 		Register_UnityEngine_Transform_set_parentInternal();
+
+		//UnityEngine.Transform UnityEngine.Transform::Find(System.String)
+		void Register_UnityEngine_Transform_Find();
+		Register_UnityEngine_Transform_Find();
 
 		//UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
 		void Register_UnityEngine_Transform_GetChild();

@@ -7,7 +7,7 @@ namespace UnityEngine.XR.iOS
 	{
 		public Transform m_HitTransform;
 
-		public Transform button1;
+		public Transform Canvas;
 
 
 
@@ -31,7 +31,7 @@ namespace UnityEngine.XR.iOS
 
 
 
-			if (Input.touchCount > 0 && m_HitTransform != null && button1.gameObject.GetComponent<button1>().ButtonDown == false)
+			if (Input.touchCount > 0 && m_HitTransform != null && Canvas.gameObject.GetComponent<ButtonControle>().ButtonDown == false)
 			{
 				var touch = Input.GetTouch(0);
 				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)

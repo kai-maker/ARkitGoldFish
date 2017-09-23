@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 762e9bf49b9559947a30c7be05f09ba5
+timeCreated: 1482689075
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature_Fish01
+    100002: Head
+    100004: Head_end
+    100006: Peix01
+    100008: //RootNode
+    100010: Spine01
+    100012: Spine02
+    100014: Spine03
+    100016: Tail01
+    100018: Tail01_end
+    100020: Tail02
+    100022: Tail02_end
+    100024: TailDown01.L
+    100026: TailDown01.L_end
+    100028: TailDown01.R
+    100030: TailDown01.R_end
+    100032: TailDown02.L
+    100034: TailDown02.L_end
+    100036: TailDown02.R
+    100038: TailDown02.R_end
+    100040: TailDown03.L
+    100042: TailDown03.L_end
+    100044: TailDown03.R
+    100046: TailDown03.R_end
+    100048: TailUp
+    100050: TailUp_end
+    100052: Fish
+    400000: Armature_Fish01
+    400002: Head
+    400004: Head_end
+    400006: Peix01
+    400008: //RootNode
+    400010: Spine01
+    400012: Spine02
+    400014: Spine03
+    400016: Tail01
+    400018: Tail01_end
+    400020: Tail02
+    400022: Tail02_end
+    400024: TailDown01.L
+    400026: TailDown01.L_end
+    400028: TailDown01.R
+    400030: TailDown01.R_end
+    400032: TailDown02.L
+    400034: TailDown02.L_end
+    400036: TailDown02.R
+    400038: TailDown02.R_end
+    400040: TailDown03.L
+    400042: TailDown03.L_end
+    400044: TailDown03.R
+    400046: TailDown03.R_end
+    400048: TailUp
+    400050: TailUp_end
+    400052: Fish
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Peix01
+    4300002: Fish
+    7400000: move
+    9500000: //RootNode
+    13700000: Peix01
+    13700002: Fish
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Armature_Fish01|Armature_Fish01Action
+      firstFrame: 2
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Fish01
+        weight: 1
+      - path: Armature_Fish01/Spine01
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/Spine03/Head/Head_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown01.L
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown01.L/TailDown01.L_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown01.R
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown01.R/TailDown01.R_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown02.L
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown02.L/TailDown02.L_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown02.R
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown02.R/TailDown02.R_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown03.L
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown03.L/TailDown03.L_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown03.R
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailDown03.R/TailDown03.R_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailUp
+        weight: 1
+      - path: Armature_Fish01/Spine01/Spine02/TailUp/TailUp_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Tail01
+        weight: 1
+      - path: Armature_Fish01/Spine01/Tail01/Tail01_end
+        weight: 1
+      - path: Armature_Fish01/Spine01/Tail02
+        weight: 1
+      - path: Armature_Fish01/Spine01/Tail02/Tail02_end
+        weight: 1
+      - path: Peix01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
