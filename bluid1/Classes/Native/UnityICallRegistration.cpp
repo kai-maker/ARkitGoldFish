@@ -2306,10 +2306,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_WakeUp();
 		Register_UnityEngine_Rigidbody_INTERNAL_CALL_WakeUp();
 
-		//System.Void UnityEngine.Rigidbody::INTERNAL_set_angularVelocity(UnityEngine.Vector3&)
-		void Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
-		Register_UnityEngine_Rigidbody_INTERNAL_set_angularVelocity();
-
 		//System.Void UnityEngine.Rigidbody::INTERNAL_set_velocity(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_INTERNAL_set_velocity();
 		Register_UnityEngine_Rigidbody_INTERNAL_set_velocity();
