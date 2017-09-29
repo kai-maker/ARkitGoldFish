@@ -30,11 +30,11 @@ public class button1 : MonoBehaviour {
 
 	}
 	public void mOnButtonDown(){
-		transform.parent.GetComponent<ButtonControle>().ButtonDown = true;
-		Debug.Log("Down");
+		transform.parent.GetComponent<ButtonControle>().buttonDown = true;
+		//Debug.Log("Down");
 	}
 	public void mOnButtonUp(){
-		transform.parent.GetComponent<ButtonControle>().ButtonDown = false;
-		Debug.Log("UP");
+		transform.parent.GetComponent<ButtonControle>().buttonDown = false;
+		//Debug.Log("UP");
 	}
 }

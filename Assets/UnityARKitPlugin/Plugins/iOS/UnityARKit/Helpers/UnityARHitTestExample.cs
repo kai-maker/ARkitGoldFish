@@ -28,10 +28,7 @@ namespace UnityEngine.XR.iOS
 		
 		// Update is called once per frame
 		void Update () {
-
-
-
-			if (Input.touchCount > 0 && m_HitTransform != null && Canvas.gameObject.GetComponent<ButtonControle>().ButtonDown == false)
+			if (Input.touchCount > 0 && m_HitTransform != null && Canvas.gameObject.GetComponent<ButtonControle>().dontSet == false)
 			{
 				var touch = Input.GetTouch(0);
 				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)

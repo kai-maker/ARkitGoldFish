@@ -17,17 +17,13 @@ public class Button3 : MonoBehaviour {
 	}
 
 	public void mOnButtonClick(){
-		Racket.position = EmptyObject.position;
-		Racket.GetComponent<Rigidbody>().velocity = Vector3.zero;
-		Racket.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-		Debug.Log ("Reset");
 	}
 	public void mOnButtonDown(){
-		transform.parent.GetComponent<ButtonControle>().ButtonDown = true;
-		Debug.Log("Down");
+		transform.parent.GetComponent<ButtonControle>().buttonDown = true;
+		//Debug.Log("3Down");
 	}
 	public void mOnButtonUp(){
-		transform.parent.GetComponent<ButtonControle>().ButtonDown = false;
-		Debug.Log("UP");
+		transform.parent.GetComponent<ButtonControle>().buttonDown = false;
+		//Debug.Log("3UP");
 	}
 }
