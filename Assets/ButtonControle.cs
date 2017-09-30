@@ -15,6 +15,6 @@ public class ButtonControle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		dontSet = buttonDown || (!onEditMode);
+		//dontSet = buttonDown || (!onEditMode);
 	}
 }
