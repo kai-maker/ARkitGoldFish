@@ -1,0 +1,65 @@
+--------------------------------
+ASSET:   Fish Pack SuburbiaGames
+AUTOR:   Suburbia Games
+VERSION: 1.0
+EMAIL:   hello@suburbiagames.com
+--------------------------------
+INTRODUCCIÓN:
+
+Primero de todo darte las gracias por haber comprado nuestro pack de la Asset Store de Unity. Esperamos que
+te sea útil y recuerda que si tienes algún problema con el pack puedes contactar con nosotros desde la
+dirección de correo electrónico que puedes encontrar en el encabezado de este archivo.
+
+----------------------------------------------------------------
+OBJETIVO DE ESTE PACK:
+
+Nuestro objetivo con este pack es poner a disposición de vosotros el comportamiento de unos peces. Pero además,
+añadimos un modelo animado en caso de no disponer de uno.
+
+También añadimos 5 texturas diferentes, aunque el modelo tiene su UV hecha por si quieres crear la tuya propia.
+
+Todo esto está pensado para que simplemente sea arrastrar el prefab del pez a vuestra escena y funcione.
+
+El comportamiento de los peces ha sido programado con la idea de que sean utilizados para escenas tranquilas y
+relajantes, como estanques. Pero también se pueden utilizar en ríos o el mar.
+
+Cada pez se comporta de manera individual. No tiene en cuenta el movimiento de los demás peces para realizar el suyo.
+
+----------------------------------------------------------------
+QUE PODRÁS ENCONTRAR EN EL PACK:
+
+- El comportamiento del pez programado en C#.
+- Un modelo de pez (Caras: 745, Triángulos: 1.484) con su UV hecha para poder añadir tu propia textura.
+- 5 texturas diferentes estilo cartoon.
+- Escena básica con un estanque sencillo y unos peces añadidos y configurados para que podáis verlos en movimiento.
+
+Todos estos elementos los podéis alternar con vuestras escenas, modelos, animaciones y/o texturas.
+
+----------------------------------------------------------------
+ESTRUCTURA DE CARPETAS DEL PACK:
+
+El pack se compone de la siguiente estructura de carpetas:
+
+/Example: contiene una escena predefinida con un estanque lowpoly sencillo y unos peces ya introducidos en la escena
+          y configurados.
+/Models: contiene el modelado del pez, las texturas y los materiales utilizados.
+/Prefabs: contiene los prefabs de los distintos peces. Para añadir un pez a tu escena, simplemente arrastra uno de
+          los prefabs a tu escenario.
+/Scripts: contiene el archivo del comportamiento de los peces. El código del archivo ha sido programado en C#.
+
+----------------------------------------------------------------
+GUÍA DE CÓMO UTILIZAR EL PACK:
+
+1. Arrastra uno de los prefabs que hay dentro la carpeta 'Prefabs' a tu escena.
+2. Selecciona el objeto del pez de tu escena y en la ventana 'Inspector' configura el pez de la siguiente manera:
+      - En el componente 'Transform' puedes variar la medida del pez modificando los valores de 'Scale'. Recuerda que
+        los campos de X, Y y Z han de tener el mismo valor.
+      - En el componente 'Fish movement' puedes configurar el comportamiento del pez.            
+            - Max velocity: es la velocidad máxima que puede alcanzar el pez.
+            - Movement probability: es la probabilidad de que el pez se mueva en cada iteración.
+            - Rotation probability: es la probabilidad de que el pez gire en cada iteración.
+            - Max Top Position: es la posición máxima en el eje Y que puede alcanzar el pez. Utiliza esta variable
+                                para marcarle el límite del agua.
+            - Min Distance Bottom: es la distancia mínima que el pez debe mantener con el fondo del agua. Utiliza
+                                   esta variable para controlar la profundidad en que los peces se deben mover.
+----------------------------------------------------------------
